@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Extentreports.MyListener"/>
+  </listeners>
+  <test name="Test for rajiv(failed)">
+    <classes>
+      <class name="com.LoginTest.LoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="veryfyBrowserName"/>
+        </methods>
+      </class> <!-- com.LoginTest.LoginPage -->
+    </classes>
+  </test> <!-- Test for rajiv(failed) -->
+</suite> <!-- Failed suite [Suite] -->

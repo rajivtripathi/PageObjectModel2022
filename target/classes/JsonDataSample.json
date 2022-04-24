@@ -1,0 +1,27 @@
+{
+ "name":"rajiv",
+ "age": 30,
+ "company": {
+ 
+  "company_name": "Birlasoft",
+  "salary": "2000",
+  "address": "Sector 135" 
+ },
+ 
+ "courses":[
+ 
+ {"title":"selenium",
+ "price": 100 
+ },
+ 
+  {"title":"QTP",
+ "price": 200 
+ },
+ 
+   {"title":"API",
+ "price": 300 
+ }
+ 
+ ]
+
+}
